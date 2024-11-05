@@ -1,0 +1,55 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/number1Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birinci Sayı"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/number2Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İkinci Sayı"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/sonucText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonuç:"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topla"
+        android:onClick="topla" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çıkar"
+        android:onClick="cikar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çarp"
+        android:onClick="carp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Böl"
+        android:onClick="bol" />
+
+</LinearLayout>
